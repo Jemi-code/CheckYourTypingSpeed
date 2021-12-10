@@ -103,6 +103,7 @@ let next = () => {
 
 //this will start the timer as soon as you start typing
 typingBox.addEventListener("keypress", start, false);
+typingBox.addEventListener("click", start, false);
 typingBox.addEventListener("keyup", spellChecker, false);
 resetBtn.addEventListener("click", reset, false);
 nextBtn.addEventListener("click", next, false);
